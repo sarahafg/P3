@@ -1,0 +1,12 @@
+region 1 size= 65565 color=java.awt.Color[r=218,g=173,b=39]
+region 2 size= 57394 color=java.awt.Color[r=113,g=184,b=208]
+region 3 size= 44058 color=java.awt.Color[r=232,g=195,b=45]
+region 4 size= 33271 color=java.awt.Color[r=80,g=166,b=194]
+region 5 size= 29058 color=java.awt.Color[r=112,g=171,b=186]
+region 6 size= 8249 color=java.awt.Color[r=213,g=102,b=42]
+region 7 size= 6052 color=java.awt.Color[r=132,g=150,b=135]
+region 8 size= 3248 color=java.awt.Color[r=115,g=99,b=65]
+region 9 size= 1873 color=java.awt.Color[r=52,g=47,b=36]
+region 10 size= 732 color=java.awt.Color[r=54,g=64,b=61]
+- Saved result to ../CS310-pa03-summer2020/output/duck_seg_10.png
+
