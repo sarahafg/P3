@@ -6,7 +6,7 @@
 :---: | :---: |:---: | :---:
 
 
-- CS 310 Programming Assignment 3 Due: **June 29th** (Monday) 11:59pm, 2020
+- CS 310 Programming Assignment 3
 
 ## Assignment Objective
 - Write a program to segment an image into _K_>1 regions, where _K_ is a user parameter.
@@ -20,10 +20,7 @@
 2. [Examples](#examples)
 4. [Definitions](#definitions)
 5. [Tasks](#tasks)
-6. [Rules](#rules)
-7. [Submission Instructions](#submission-instructions)
-8. [Grading Rubric](#grading-rubric)
-9. [Useful Links](#external-links)
+
 
 ## Input Output
 
@@ -312,24 +309,11 @@ public void segment(int K) //K is the number of desired segments
 				- add each new similarity to your priority queue
 
 
-### Task 5: README.txt (5%)
-Fill out readme.txt **(NOT  [README.md](http://README.md))**
-
-
 ### Bonus: Speedup Segmentation (10+10%)
 
 **Details coming soon.**
 Your code is going to be very slow even on a small image, e.g. 500x500 (250K) pixels. 
 Improve the speed of your code and earn extra points.
-
-## Rules
-
-### You must
-1. Fill out readme.txt **(NOT README.md, which is this document)** with your information (goes in your user folder)
-2. Have a style (indentation, good variable names, etc.)
-3. Comment your code well in JavaDoc style (no need to overdo it, just do it well)
-4. Have code that compiles with the command: javac *.java in your user directory
-5. **Print regions to terminal by size, large to small**
 
 ### You may
 
@@ -351,35 +335,6 @@ import javax.swing.JFrame;
 ```
 
 2. Use code from your text book _Data Structures and Problem Solving Using Java_, 4th Edition by _Mark A. Weiss_
-
-### You cannot
-1. Make your program part of a package.
-2. Import any additional libraries/packages
-
-## Submission Instructions
-- Use the cloud or some other server to backup your code!
-- Remove all test files, jar files, class files, etc.
-- You should just submit your java files and your readme.txt
-- Zip your user folder (not just the files) and name the zip “username-p3.zip” (no other type of archive) where “username” is your username.
-- Submit to blackboard.
-
-## Grading Rubric
-[back to top](#table-of-contents)
-
-### No Credit
-- Non submitted assignments
-- Late assignments (**late tokens not allowed** for this project)
-- Non compiling assignments
-- Non-independent work
-- "Hard coded" solutions
-- Code that would win an obfuscated code competition with the rest of CS310 students.
-
-### How will my assignment be graded?
-- Grading will be divided into two portions:
-  1. Manual/Automatic Testing (100%): To assess the correctness of programs.
-  2. Manual Code Inspection (Optional)
-  3. Manual Style Inspection (10% off the top points): [A checklist](#manual-code-inspection-rubric-10-off-the-top-points) of features your programs should exhibit. These comprise things that cannot be easily checked via unit tests such as good variable name selection, proper decomposition of a problem into multiple functions or cooperating objects, overall design elegance, and proper asymptotic complexity. These features will be checked by graders and assigned credit based on level of compliance. See the remainder of this document for more information.
-- You CANNOT get points (even style/manual-inspection points) for code that doesn't compile or for submitting just the files given to you with the assignment. You CAN get manual inspection points for code that (a) compiles and (b) is an "honest attempt" at the assignment, but does not pass any unit tests.
 
 #### Manual/Automatic Testing (100%)
 - Your output images will be compared with our terminal text output. 
